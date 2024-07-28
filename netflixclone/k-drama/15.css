@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222
+}
+
+section .posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 2% 2%;
+}
+
+section .posters::-webkit-scrollbar {
+    display: none;
+
+}
+
+
+.banner {
+    background-image: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),
+    url(banner/ban14.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 110vh;
+}
+
+.banner .banner-content {
+    padding: 8% 8%;
+
+}
+
+.banner .banner-content .banner-title h1 {
+    font-size: 2rem;
+    font-weight: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    padding: 2% 0%;
+}
+
+.banner .banner-content .banner-title p {
+    max-width: 600px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 1% 0%;
+    letter-spacing: 1px;
+
+}
+
+.banner .banner-content .banner-buttons .play {
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #222;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.banner .banner-content .banner-buttons .play:hover {
+    background-color: #fff;
+    color: #333;
+    transition: 0.5s;
+}
+
+.banner .banner-content .banner-buttons .info {
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: none;
+    color: #333;
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.banner .banner-content .banner-buttons .info:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+
+section h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1% 2%;
+}
+
+section .posters .poster-title {
+    margin: 0% 0.5%;
+    transition: transform 400ms;
+}
+
+section .posters .poster-title h3 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 2% 0%;
+}
+
+section .posters .poster-title:hover {
+    transform: scale(1.09);
+
+
+}
+
+nav .logo {
+    width: 120px;
+    object-fit: contain;
+    margin: 1% 3%;
+}
+
+nav .profile {
+    width: 60px;
+    object-fit: contain;
+    border-radius: 5rem;
+    border: 4px solid black;
+    margin: 3% 3%;
+
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+footer {
+    padding: 2% 2%;
+    border-top: 5px solid #e00c0c;
+    color: #666;
+}
+
+footer h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding: 2% 4%;
+}
+
+footer .col {
+    margin: 10px 50px;
+}
+
+footer .row {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+
+}
+
+footer .col a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+}
+
+.language {
+    background-color: black;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    margin-left: 60px;
+    padding: 10px 13px;
+    cursor: pointer;
+
+}
+
+.country {
+    padding: 10px 85px;
+    font-size: 15px;
+    color: #666;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+i {
+    padding: 5px;
+}
+.banner .banner-content .banner-title img{
+    width: 40%;
+    height: 4%;
+    margin: 5% 0% 1% 0%;
+ 
+}
+.banner .container1 .container1-title img {
+    width: 25px;
+    height: 45px;
+    margin: 2% 0% 2% 10%;
+
+}
+.banner .container1{
+    width: 103%;
+    margin-top: 1rem;
+    display: flex;
+    height: 60px;
+    box-shadow: 8px 5px 16px 0rgba(0, 0, 0,0.37);
+    background-image: linear-gradient(90deg,#333 5%,#181818 95%);
+    justify-content: space-between;
+
+}
+.banner .container1 .container1-title{
+    display: flex;
+}
+.banner .container1 .container1-title p{
+    padding: 1.3rem;
+    color: #fff;
+}
+.banner .banner-content .container1 .button1 .join{
+     color: #fff;
+    background-color: red;
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 3%  0% 3% 4%;
+   margin-top: 11px;
+   margin-right: 1.8rem;
+    cursor: pointer;
+    width: 110px;
+    height: 35px;
+    border-radius: 5PX;
+}
+.banner .banner-content .container1 .button1 .join:hover{
+        background-color:rgb(7, 7, 7);
+         transition: 0.5s;
+}
+
+
+
+
